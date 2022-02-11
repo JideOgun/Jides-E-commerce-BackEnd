@@ -34,9 +34,6 @@ router.get('/:id', (req, res) => {
       {
         model: Category
       },
-      // {
-      //   model: ProductTag
-      // },
       {
         model: Tag
       }
